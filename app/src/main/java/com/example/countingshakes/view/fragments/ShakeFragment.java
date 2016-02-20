@@ -47,7 +47,7 @@ import static com.example.countingshakes.utils.Utils.TAG;
 public class ShakeFragment extends Fragment implements SensorEventListener {
 
     private final static float ZERO = 0.0f;
-    private static final int COUNTING_LENGTH_MS = 6000; //6s
+    private static final int COUNTING_LENGTH_MS = 60000; //60s
     private int count = 0;
     private boolean init;
     private SensorManager sensorManager;
