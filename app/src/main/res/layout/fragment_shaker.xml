@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?attr/actionBarSize"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <TextView
+        android:id="@+id/txt_instructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/small_margin"
+        android:text="@string/str_counter_instructions"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/txt_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_instructions"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/txt_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_total"
+        android:layout_centerHorizontal="true"
+        android:textSize="150sp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@android:drawable/ic_media_play" />
+
+    <Button
+        android:id="@+id/btn_post_to_ranking"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_counter"
+        android:layout_toStartOf="@+id/txt_counter"
+        android:text="@string/str_btn_rank_it"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btn_fb_post"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_counter"
+        android:layout_toEndOf="@+id/txt_counter"
+        android:text="@string/str_btn_post_on_fb"
+        android:visibility="invisible" />
+
+</RelativeLayout>

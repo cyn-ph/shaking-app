@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_shake"
+            android:icon="@drawable/ic_menu_shake"
+            android:title="@string/str_nav_opt_shake" />
+        <item
+            android:id="@+id/nav_ranking"
+            android:icon="@drawable/ic_menu_ranking"
+            android:title="@string/str_nav_opt_ranking" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_menu_profile"
+            android:title="@string/str_nav_opt_profile" />
+
+    </group>
+
+</menu>

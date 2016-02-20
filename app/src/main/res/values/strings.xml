@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">CountingShakes</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="str_accelerometer_error">There is no accelerometer sensor on this device</string>
+    <string name="str_counter_instructions">Press the button to start counting shakes</string>
+    <string name="str_counter_total">Your score %s:</string>
+    <string name="str_nav_opt_shake">Shake</string>
+    <string name="str_nav_opt_ranking">Ranking</string>
+    <string name="str_nav_opt_profile">Profile</string>
+    <string name="facebook_app_id">1567111016940298</string>
+    <string name="str_guest">Guest</string>
+    <string name="ranking_info_str">%1$s - %2$s shakes</string>
+    <string name="str_btn_rank_it">Rank it!</string>
+    <string name="str_btn_post_on_fb">Post it on FB!</string>
+    <string name="str_post_successful">It was posted successfully!</string>
+    <string name="str_ranking_error">An error occurred, please try later.</string>
+
+</resources>
